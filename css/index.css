@@ -1,0 +1,42 @@
+@font-face
+{
+    font-family: "Lamina";
+    src: url("sprite_comic.woff");
+}
+
+body
+{
+    font-family: "Lamina";
+    font-weight:normal;
+    font-style:normal;
+}
+
+.downloader {
+    font-size: 15px;
+}
+
+.downloader:link, .downloader:visited, .downloader:active {
+    background-color: rgba(0, 100, 0, 0.50);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .downloader:hover {
+    background-color: rgba(0, 255, 0, 0.75);    
+  }
+
+.language:link, .language:visited, .language:active {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .language:hover {
+    background-color: rgba(0, 0, 100, 0.25);    
+  }
